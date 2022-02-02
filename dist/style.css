@@ -1,0 +1,37 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+header{
+    padding:10px 10px 5px 10px;
+    background-color: #1df830;
+}
+p {
+ font-size: xx-large;
+ font-weight: 700;
+ font-family: Arial, Helvetica, sans-serif;
+}
+main{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.card{
+    margin: 50px 75px;
+}
+.manager{
+    background-color: #fa774f;
+}
+
+.engineer{
+    background-color: #2695f7;
+}
+
+.intern{
+    background-color: #fa3497;
+}
